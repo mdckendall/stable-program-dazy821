@@ -17,7 +17,7 @@ class Main {
 				System.out.println("What is the name of the horse?");
 				String hn = scanner.nextLine();
 				System.out.println("What is the weight of the horse?");
-				int w = scanner.nextInt();
+				double w = scanner.nextInt();
 				System.out.println("Enter true if the horse is tame or false if it is not.");
 				boolean t = scanner.nextBoolean();
 				h = new Horse(hn, w, t);
